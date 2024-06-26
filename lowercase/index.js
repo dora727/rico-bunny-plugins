@@ -1,0 +1,1 @@
+(function(t,e,o){"use strict";const a=o.before("render",e.ReactNative.Text,function(r){let[n]=r;const l={...e.ReactNative.StyleSheet.flatten(n.style)??{},textTransform:"lowercase"};n.style=l});function c(){a()}return t.onUnload=c,t})({},vendetta.metro.common,vendetta.patcher);
